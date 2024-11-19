@@ -21,7 +21,7 @@ bullet_client.resetSimulation()
 robot = BulletRobot(bullet_client=bullet_client, urdf_path=URDF_PATH)
 gripper = BulletGripper(bullet_client=bullet_client, robot_id=robot.robot_id)
 
-# robot commands 
+# robot commands
 # move the robot to the home position instantly, without real execution
 robot.home()
 
